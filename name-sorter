@@ -1,0 +1,4 @@
+#!/bin/bash
+dotnet run --project /Users/ramsha/NameSorter "$@"
+
+
