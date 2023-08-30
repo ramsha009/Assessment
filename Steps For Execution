@@ -1,0 +1,23 @@
+(To run)
+dotnet run ./unsorted-names-list.txt
+
+Output will be shown. 
+Further: 
+touch name-sorter
+nano name-sorter
+And type: #!/bin/bash
+dotnet run --project /Users/ramsha/NameSorter "$@"
+Cntrl + O
+Enter
+Cntrl + X
+Type: chmod +x name-sorter
+Desired Output will be shown 
+
+For unit testing:
+
+dotnet add package xunit
+cd NameSorter.Tests
+touch NameSorterTests.cs
+open .
+(Run the test)
+dotnet test
